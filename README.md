@@ -4,3 +4,4 @@ Softwares requried:
  - TestNG
  - Log4j
  - Selenium
+ - Java 17
