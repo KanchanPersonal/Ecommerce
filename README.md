@@ -5,3 +5,4 @@ Softwares requried:
  - Log4j
  - Selenium
  - Java 17
+ - Maven
