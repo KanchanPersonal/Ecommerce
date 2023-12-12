@@ -9,7 +9,7 @@ import com.ecom.core.SeleniumUtils;
 import com.ecom.core.utilites.Result;
 
 public class Login extends SeleniumUtils {
-	public String alertText;
+	//public String alertText;
 	public String actualWelcomeMsg;
 
 	@FindBy(id = "loginusername")

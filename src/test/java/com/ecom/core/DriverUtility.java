@@ -29,7 +29,7 @@ public class DriverUtility {
 
         if (browser.equalsIgnoreCase("chrome")) {
         	 ChromeOptions options = new ChromeOptions();
-             options.addArguments("--incognito");
+        //     options.addArguments("--incognito");
              driver = new ChromeDriver(options);
         } else if (browser.equalsIgnoreCase("firefox")) {
             driver = new FirefoxDriver();

@@ -7,14 +7,14 @@ import java.util.List;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WindowType;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-
-public class SeleniumUtils  {
+public class SeleniumUtils {
 
 	// Finding the elements - single, multiple
 	// SendKeys
@@ -29,7 +29,8 @@ public class SeleniumUtils  {
 	// get text
 	// Reusable and Generic methods used by all the pages
 	// Scrolling - Scroll to an element, scroll down, scroll top - done
-	//fileupload
+	// fileupload-using sendkeys??only when we have the tag name as input-use autoit
+	// dropdown handling
 
 	public WebElement getElement(String locatoryType, String locValue) {
 		List<WebElement> list = getElements(locatoryType, locValue);
@@ -39,23 +40,27 @@ public class SeleniumUtils  {
 			return null;
 	}
 
-	public List<WebElement> getElements(String locatoryType, String locValue) {
-	//	return DriverUtility.driver.findElements(getByObject(locatoryType, locValue));
+	public List<WebElement> getElements(String locatorType, String locValue) {
+		// return DriverUtility.driver.findElements(getByObject(locatoryType,
+		// locValue));
 		WebDriverWait wait = new WebDriverWait(DriverUtility.driver, Duration.ofSeconds(30));
-	    List<WebElement> elements = null;
+		List<WebElement> elements = null;
 
-	    try {
-	        elements = waitForElement(getByObject(locatoryType, locValue), "visibility", 30);
-	    } catch (Exception e) {
-	        System.out.println("An exception occurred: " + e.getMessage());
-	    }
+		try {
+			elements = waitForElement(getByObject(locatorType,locValue), "visibilityall", 30);
+		if (elements.size() <= 1) {
+		    elements = waitForElement(getByObject(locatorType, locValue), "visibility", 30);
+		}
+		} catch (Exception e) {
+			System.out.println("An exception occurred: " + e.getMessage());
+		}
 
-	    return elements;
+		return elements;
 
 	}
-	
-	//reusable explicit wait conditions for comman used methods like usability,clickable,alertis present,urlcontains
-	
+
+	// reusable explicit wait conditions for comman used methods like
+	// usability,clickable,alertis present,urlcontains
 
 	public void clickOnElement(String locatoryType, String locValue) {
 		getElement(locatoryType, locValue).click();
@@ -104,7 +109,7 @@ public class SeleniumUtils  {
 			element.sendKeys(text);
 		}
 	}
-	
+
 	public void typeText(WebElement element, String text) {
 
 		if (element != null) {
@@ -113,10 +118,12 @@ public class SeleniumUtils  {
 		}
 	}
 
-	public String getAlert(String action) { //change name to HandleAlert
+	public String getAlert(String action) { // change name to HandleAlert
 		WebDriverWait wait = new WebDriverWait(DriverUtility.driver, Duration.ofSeconds(30));
-		Alert alert = DriverUtility.driver.switchTo().alert();
 		wait.until(ExpectedConditions.alertIsPresent());
+		
+		Alert alert = DriverUtility.driver.switchTo().alert();
+
 		if (action.equalsIgnoreCase("accept")) {
 			alert.accept();
 			return null;
@@ -124,134 +131,188 @@ public class SeleniumUtils  {
 			alert.dismiss();
 			return null;
 		} else if (action.equals("getText")) {
-			return alert.getText();
+			String alertText = alert.getText();
+			alert.accept();
+			return alertText;
 
 		}
 		return null;
 	}
-	
+
 	public String getText(String locatorType, String locatorValue) {
-	    List<WebElement> elements = getElements(locatorType, locatorValue);
-	    if ( elements.size() > 0) {
-	        return elements.get(0).getText();
-	    } else {
-	        return null;
-	    }
+		List<WebElement> elements = getElements(locatorType, locatorValue);
+		if (elements.size() > 0) {
+			return elements.get(0).getText();
+		} else {
+			return null;
+		}
 	}
-	   
-	    public static void performMouseAction(String action, WebElement element) {
-	        switch(action) {
-	            case "click":
-	            	DriverUtility.action.click(element).build().perform();
-	                break;
-	            case "rightClick":  // Add this case for right-click
-	            	DriverUtility.action.contextClick(element).build().perform();
-	                break;
-	            case "click_and_hold":
-	            	DriverUtility.action.clickAndHold(element).build().perform();
-	                break;
-	            case "single_click":
-	            	DriverUtility.action.click(element).build().perform();
-	                break;
-	            case "double_click":
-	            	DriverUtility.action.doubleClick(element).build().perform();
-	                break;
-	            case "move_to_element":
-	            	DriverUtility.action.moveToElement(element).build().perform();
-	                break;
-	            default:
-	                System.out.println("Invalid action specified");
-	        }
-	    }
-	    
-	    
-	
+
+	public static void performMouseAction(String action, WebElement element) {
+		switch (action) {
+		case "click":
+			DriverUtility.action.click(element).build().perform();
+			break;
+		case "rightClick": // Add this case for right-click
+			DriverUtility.action.contextClick(element).build().perform();
+			break;
+		case "click_and_hold":
+			DriverUtility.action.clickAndHold(element).build().perform();
+			break;
+		case "single_click":
+			DriverUtility.action.click(element).build().perform();
+			break;
+		case "double_click":
+			DriverUtility.action.doubleClick(element).build().perform();
+			break;
+		case "move_to_element":
+			DriverUtility.action.moveToElement(element).build().perform();
+			break;
+		default:
+			System.out.println("Invalid action specified");
+		}
+	}
+
 	public List<WebElement> waitForElement(By locator, String waitType, int timeoutInSeconds) {
-	    WebDriverWait wait = new WebDriverWait(DriverUtility.driver, Duration.ofSeconds(timeoutInSeconds)); // Use Duration for timeout
+		WebDriverWait wait = new WebDriverWait(DriverUtility.driver, Duration.ofSeconds(timeoutInSeconds)); // Use
+																											// Duration
+																											// for
+																											// timeout
 
-	    List<WebElement> element = new ArrayList<>(); 
-	//    wait.until(new Function<>{})
-	    
-	    
-	    
-	    // Comparator Interface - java collections framework 
-	    // To compare the objects in the list -- List<Integers>, List<Employee>
-	        
-	      switch (waitType) {
-	          case "visibility":
-	              element.add( wait.until(ExpectedConditions.visibilityOfElementLocated(locator)));
-	              break;
-	          case "clickable":
-	              element.add(wait.until(ExpectedConditions.elementToBeClickable(locator)));
-	              break;
-	          case "presence":
-	              element.add(wait.until(ExpectedConditions.presenceOfElementLocated(locator)));
-	              break;
-	          case "visibilityall":
-	              element.addAll(wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator)));
-	              break;
-	          default:
-	              System.out.println("Invalid wait type specified");
-	      }
-	        
-	      return element;
-	  }
-	
-	 public static String getCurrentURL() {
-	        return DriverUtility.driver.getCurrentUrl();
-	    }
-	    
-	    public static String getPageTitle() {
-	        return DriverUtility.driver.getTitle();
-	    }
-	
-	public String getCurrentWindowID()
-	{
-		return DriverUtility.driver.getWindowHandle();	
-	}
-	
-	public void scrollToElement(WebElement element)
-	{
-		// By object --> 
-		  //Actions actions = new Actions(DriverUtility.driver);
-		DriverUtility.action.scrollToElement(element).perform();	
-	}
-	public void scrollToElementByAmount(int x, int y)
-	{
-		DriverUtility.action.scrollByAmount(x,y).perform();	
-	}
-	
-//pass type 
-    public void switchToFrame(String frameIdOrName) {
-    	DriverUtility.driver.switchTo().frame(frameIdOrName);
-    }
+		List<WebElement> element = new ArrayList<>();
+		// wait.until(new Function<>{})
 
-    public void switchToFrame(WebElement frameElement) {
-    	DriverUtility.driver.switchTo().frame(frameElement);
-    }
+		// Comparator Interface - java collections framework
+		// To compare the objects in the list -- List<Integers>, List<Employee>
 
-    public void switchToDefaultContent() {
-    	DriverUtility.driver.switchTo().defaultContent();
-    }
+		switch (waitType) {
+		case "visibility":
+			element.add(wait.until(ExpectedConditions.visibilityOfElementLocated(locator)));
+			break;
+		case "clickable":
+			element.add(wait.until(ExpectedConditions.elementToBeClickable(locator)));
+			break;
+		case "presence":
+			element.add(wait.until(ExpectedConditions.presenceOfElementLocated(locator)));
+			break;
+		case "visibilityall":
+			element.addAll(wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator)));
+			break;
+		default:
+			System.out.println("Invalid wait type specified");
+		}
+
+		return element;
+	}
+
+	public static String getCurrentURL() {
+		return DriverUtility.driver.getCurrentUrl();
+	}
+
+	public static String getPageTitle() {
+		return DriverUtility.driver.getTitle();
+	}
+
+	public String getCurrentWindowID() {
+		return DriverUtility.driver.getWindowHandle();
+	}
+
+	public void scrollToElement(WebElement element) {
+		// By object -->
+		// Actions actions = new Actions(DriverUtility.driver);
+		DriverUtility.action.scrollToElement(element).perform();
+	}
+
+	public void scrollToElementByAmountDown(int y, String browser) {
+		if (browser.equalsIgnoreCase("chrome")) {
+			DriverUtility.action.scrollByAmount(0, y).perform();
+		} else {
+			JavascriptExecutor js = (JavascriptExecutor) DriverUtility.driver;
+			js.executeScript("window.scrollBy(0,y)", "");
+		}
+	}
+
+	public void scrollToElementByAmountUp(int y, String browser)// y will be -ve
+	{
+		if (browser.equalsIgnoreCase("chrome")) {
+			DriverUtility.action.scrollByAmount(0, y).perform();
+		} else {
+			JavascriptExecutor js = (JavascriptExecutor) DriverUtility.driver;
+			js.executeScript("window.scrollBy(0,y)", "");
+		}
+	}
+	// Scrolling down the page till the element is found
+	// js.executeScript("arguments[0].scrollIntoView();", Element);//until visible
+	// scroll
+
+	public void switchToFrame(String frameIdentifier, String type) {// frameidentifier is locator of frame
+		try {
+			switch (type.toUpperCase()) {
+			case "FRAME_ID_OR_NAME":
+				DriverUtility.driver.switchTo().frame(frameIdentifier);
+				break;
+			case "FRAME_INDEX":
+				int index = Integer.parseInt(frameIdentifier);
+				DriverUtility.driver.switchTo().frame(index);
+				break;
+			case "FRAME_BY_ELEMENT":
+				WebElement frameElement = DriverUtility.driver.findElement(By.xpath(frameIdentifier));
+				DriverUtility.driver.switchTo().frame(frameElement);
+				break;
+			default:
+				System.out.println("Unsupported frame identifier type.");
+				break;
+			}
+		} catch (NumberFormatException e) {
+			System.out.println("Invalid frame index: " + frameIdentifier);
+		} catch (IllegalArgumentException e) {
+			System.out.println("Invalid frame identifier type: " + type);
+		} catch (Exception e) {
+			// Handle exceptions, such as issues with switching to the frame
+			System.out.println("Error: " + e.getMessage());
+			e.printStackTrace();
+		}
+	}
+
+	public void switchToNewTabOrWindow(String windowType) throws InterruptedException {
+		if (windowType.equalsIgnoreCase("tab")) {
+			Thread.sleep(2000);
+			DriverUtility.driver = DriverUtility.driver.switchTo().newWindow(WindowType.TAB);
+			Thread.sleep(2000);
+		} else if (windowType.equalsIgnoreCase("window")) {
+			Thread.sleep(2000);
+			DriverUtility.driver.switchTo().newWindow(WindowType.WINDOW);
+			DriverUtility.driver.manage().window().maximize();
+		} else {
+			throw new IllegalArgumentException("Invalid window type: " + windowType);
+		}
+	}
+	// comman method to click on home page links
 	
-    public void switchToNewTab() {
-    	DriverUtility.driver.switchTo().newWindow(WindowType.TAB);
-    	// opening the new tab with empty page
-    }
-    public void switchToNewWindow() {
-    	DriverUtility.driver.switchTo().newWindow(WindowType.WINDOW);
-    }
+	public void navigateTo(String linkname) {
+		String currenturl = getCurrentURL();
+		 if(currenturl.contains("https://demoblaze.com/"))
+		 {
+			 clickOnElement("partiallink",linkname);
+		 }
+			 else	 {
+				 DriverUtility.log.error("Enter correct link name");
+			 }
+		 }
 	
-    // Click on Button a new tab will open with new url
-    
-    public void test() {
-    	square(10);
-    //	int res = x -> x*x;
-    }
-    
-    public int square(int x) {
-    	int res = x * x;
-    	return res;
-    }
-	
+	public void gotoURL(String url) {
+		DriverUtility.driver.get(url);
+	}
+		
+
+	public void test() {
+		square(10);
+		// int res = x -> x*x;
+	}
+
+	public int square(int x) {
+		int res = x * x;
+		return res;
+	}
+
 }

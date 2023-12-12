@@ -1,7 +1,5 @@
 package com.ecom.project.Pages;
 
-import static org.testng.Assert.assertTrue;
-
 import org.openqa.selenium.WebDriver;
 
 import com.ecom.core.DriverUtility;
@@ -9,8 +7,6 @@ import com.ecom.core.SeleniumUtils;
 import com.ecom.core.utilites.Utlities;
 
 public class Signupuser extends SeleniumUtils {
-	public String alertText;
-//	public String actualWelcomeMsg;
 	Utlities utility = new Utlities();
 
 	public Signupuser(WebDriver driver) {
@@ -24,31 +20,30 @@ public class Signupuser extends SeleniumUtils {
 			typeText("id", "sign-username", username);
 			typeText("id", "sign-password", password);
 			clickOnElement("xpath", "//button[@onclick='register()']");
-			// log message succesfully enter the details in the registration 
+			// log message succesfully enter the details in the registration
 			DriverUtility.log.info("User Registration Successful");
-			String actualWelcomeMsg= getAlert("getText");
+			String actualWelcomeMsg = getAlert("getText");
 			// Text on the alert is actualWelcom
-			flag = actualWelcomeMsg.equals(expectedText); //write log with actual expected values
-			if(!flag)
-			{
-				 DriverUtility.log.error("User Registration Failed. Expected Value: '{}', Actual Value: '{}'", "Sign up successful.",actualWelcomeMsg);
+			flag = actualWelcomeMsg.equals(expectedText); // write log with actual expected values
+			if (!flag) {
+				DriverUtility.log.error("User Registration Failed. Expected Value: '{}', Actual Value: '{}'",
+						"Sign up successful.", actualWelcomeMsg);
 			}
 		} catch (Exception e) {
 			// Handle exceptions if needed
 		}
 		return flag;
 	}
-	
-	
+
 	public boolean register() {
 		return performRegistration(utility.generateRandomString("alphabets", 7),
-				utility.generateRandomString("alphanumeric", 7), "Sign up1 successful.");
-	}
-	
-	//public boolean verifyRegister(String username, String password, String expectedText) {
-	  //  return performRegistration(username, password, expectedText);
-	    // validations here
+				utility.generateRandomString("alphanumeric", 7), "Sigjnuu up successful.");
 	}
 
-	// Single Method.. registration(u, p, expText)
+	// public boolean verifyRegister(String username, String password, String
+	// expectedText) {
+	// return performRegistration(username, password, expectedText);
+	// validations here
+}
 
+// Single Method.. registration(u, p, expText)

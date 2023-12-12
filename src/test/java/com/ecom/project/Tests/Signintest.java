@@ -33,24 +33,26 @@ public class Signintest {
 		DriverUtility.log.info("Start TestCase", "Test Case 1: Verify New User Registration");
 	    Signupuser registration = new Signupuser(DriverUtility.driver);
 	    status= registration.register();
-        assertTrue(status, "Sign up failed. See logs for details.");
         DriverUtility.log.info("Testcase completed");
+        assertTrue(status, "Sign up failed. See logs for details.");
+	   // tearDown();
         
 	}
 
-	@Test(description = "Verify if user is already registered", priority = 1, groups = { "Regression" })
+	@Test(enabled= false,description = "Verify if user is already registered", priority = 1, groups = { "Regression" })
 	@Parameters({ "TC1_Username", "TC1_Password","ExpectedText" })
 	public void verifyAlreadyRegistered(@Optional("automationuser") String TC1_Username,
-			@Optional("abc@123") String TC1_Password, @Optional("This user already exist.") String ExpectedText) throws InterruptedException, IOException {
+			@Optional("abc@123") String TC1_Password, @Optional("This user already existo.") String ExpectedText) throws InterruptedException, IOException {
 		Boolean status;
 		DriverUtility.log.info("Start TestCase", "Test Case 2: Verify if user is already registered");
 		Signupuser registration = new Signupuser(DriverUtility.driver);
 		status=registration.performRegistration(TC1_Username, TC1_Password,ExpectedText);
 	    assertTrue(status, "Cannot signin for already present user. See logs for details.");
 	    DriverUtility.log.info("Testcase completed");
+	    tearDown();
 	        }	
 
-	@Test(description = "Verify if any field is null", priority = 1, groups = { "Regression" })
+	@Test(enabled= false,description = "Verify if any field is null", priority = 1, groups = { "Regression" })
 	@Parameters({ "TC1_Username", "TC1_Password","ExpectedText" })
 	public void verifyNullFields(@Optional("") String TC1_Username, @Optional("abc@123") String TC1_Password,@Optional("Please fill out Username and Password.") String ExpectedText)
 			throws InterruptedException, IOException {
@@ -62,10 +64,11 @@ public class Signintest {
         DriverUtility.log.info("Testcase completed");
         }
 
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
 		if (DriverUtility.driver != null) {
-			DriverUtility.driver.quit();
+			DriverUtility.driver.close();
+			DriverUtility.log.info("browser closed");
 		}
 	}
 

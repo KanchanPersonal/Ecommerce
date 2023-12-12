@@ -1,0 +1,458 @@
+[INFO ] 2023-11-22 09:51:30.253 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 09:51:31.170 [main] DriverUtility - User Registration Successful
+[INFO ] 2023-11-22 09:51:54.025 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 09:52:11.734 [main] DriverUtility - User Registration Successful
+[ERROR] 2023-11-22 09:52:31.372 [main] DriverUtility - User Registration Failed. Expected Value: 'Sign up successful.', Actual Value: 'Sign up successful.'
+[INFO ] 2023-11-22 09:53:17.096 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 09:53:32.108 [main] DriverUtility - User Registration Successful
+[ERROR] 2023-11-22 09:53:38.358 [main] DriverUtility - User Registration Failed. Expected Value: 'Sign up successful.', Actual Value: 'Sign up successful.'
+[INFO ] 2023-11-22 09:53:59.147 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 09:54:10.886 [main] DriverUtility - User Registration Successful
+[INFO ] 2023-11-22 09:55:43.781 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 09:55:44.693 [main] DriverUtility - User Registration Successful
+[INFO ] 2023-11-22 10:04:32.580 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 10:04:33.468 [main] DriverUtility - User Registration Successful
+[INFO ] 2023-11-22 10:05:11.560 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 10:05:12.506 [main] DriverUtility - User Registration Successful
+[INFO ] 2023-11-22 10:06:14.736 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 10:06:15.725 [main] DriverUtility - User Registration Successful
+[INFO ] 2023-11-22 10:06:42.782 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 10:06:43.702 [main] DriverUtility - User Registration Successful
+[INFO ] 2023-11-22 10:07:11.045 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 10:07:12.141 [main] DriverUtility - User Registration Successful
+[INFO ] 2023-11-22 10:10:04.049 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 10:10:04.953 [main] DriverUtility - User Registration Successful
+[INFO ] 2023-11-22 10:10:41.878 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 10:10:42.853 [main] DriverUtility - User Registration Successful
+[INFO ] 2023-11-22 10:11:19.034 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 10:11:19.964 [main] DriverUtility - User Registration Successful
+[INFO ] 2023-11-22 10:11:40.796 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 10:11:41.754 [main] DriverUtility - User Registration Successful
+[INFO ] 2023-11-22 10:27:30.803 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 10:27:31.739 [main] DriverUtility - User Registration Successful
+[INFO ] 2023-11-22 10:27:36.598 [main] DriverUtility - Testcase completed
+[INFO ] 2023-11-22 10:28:27.242 [main] DriverUtility - browser closed
+[INFO ] 2023-11-22 10:44:08.290 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 10:44:33.219 [main] DriverUtility - User Registration Successful
+[INFO ] 2023-11-22 10:45:49.435 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 10:45:56.637 [main] DriverUtility - Testcase completed
+[INFO ] 2023-11-22 10:47:33.535 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 10:50:29.552 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 10:52:07.289 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 10:55:01.394 [main] DriverUtility - Testcase completed
+[INFO ] 2023-11-22 10:57:26.922 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 10:57:27.836 [main] DriverUtility - User Registration Successful
+[INFO ] 2023-11-22 10:57:28.008 [main] DriverUtility - browser closed
+[INFO ] 2023-11-22 10:57:30.976 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 10:57:31.811 [main] DriverUtility - User Registration Successful
+[INFO ] 2023-11-22 10:59:20.565 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 18:23:37.033 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 18:24:07.672 [main] DriverUtility - Login is succesful
+[INFO ] 2023-11-22 18:24:15.975 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-11-22 18:26:47.803 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[ERROR] 2023-11-22 18:27:20.300 [main] DriverUtility - Error adding product to cart: unexpected alert open: {Alert text : Product added.}
+  (Session info: chrome=119.0.6045.160): Product added.
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [241bff6b60f146e10acce9a17461151d, goBack {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\kanch\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49903}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49903/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 241bff6b60f146e10acce9a17461151d
+[INFO ] 2023-11-22 20:08:16.222 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 20:09:03.674 [main] DriverUtility - User Registration Successful
+[INFO ] 2023-11-22 20:09:14.538 [main] DriverUtility - Testcase completed
+[INFO ] 2023-11-22 20:11:42.157 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 20:12:29.252 [main] DriverUtility - User Registration Successful
+[ERROR] 2023-11-22 20:13:46.528 [main] DriverUtility - User Registration Failed. Expected Value: 'Sign up successful.', Actual Value: 'Sign up successful.'
+[INFO ] 2023-11-22 20:14:10.280 [main] DriverUtility - Testcase completed
+[INFO ] 2023-11-22 20:18:49.227 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 20:19:36.380 [main] DriverUtility - User Registration Successful
+[INFO ] 2023-11-22 20:19:47.378 [main] DriverUtility - Testcase completed
+[INFO ] 2023-11-22 20:22:01.219 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 20:22:33.140 [main] DriverUtility - User Registration Successful
+[ERROR] 2023-11-22 20:22:54.834 [main] DriverUtility - User Registration Failed. Expected Value: 'Sign up successful.', Actual Value: 'Sign up successful.'
+[INFO ] 2023-11-22 20:22:59.208 [main] DriverUtility - Testcase completed
+[INFO ] 2023-11-22 20:23:45.972 [main] DriverUtility - browser closed
+[INFO ] 2023-11-22 20:27:15.919 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 20:27:26.403 [main] DriverUtility - Login is succesful
+[INFO ] 2023-11-22 20:27:26.404 [main] DriverUtility - Test Case Completed: User login Successful
+[ERROR] 2023-11-22 20:28:23.824 [main] DriverUtility - Error adding product to cart: no such alert
+  (Session info: chrome=119.0.6045.160)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b742db2e4a682359a49a949066694fcd, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\kanch\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50979}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50979/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b742db2e4a682359a49a949066694fcd
+[INFO ] 2023-11-22 20:28:24.008 [main] DriverUtility - browser closed
+[INFO ] 2023-11-22 20:29:03.567 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 20:29:14.329 [main] DriverUtility - Login is succesful
+[INFO ] 2023-11-22 20:29:14.329 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-11-22 20:30:39.204 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-11-22 20:32:20.708 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[ERROR] 2023-11-22 20:33:14.861 [main] DriverUtility - Error adding product to cart: Cannot invoke "java.util.List.size()" because "list" is null
+[INFO ] 2023-11-22 20:33:15.096 [main] DriverUtility - browser closed
+[INFO ] 2023-11-22 20:37:42.125 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 20:37:45.586 [main] DriverUtility - Login is succesful
+[INFO ] 2023-11-22 20:37:45.587 [main] DriverUtility - Test Case Completed: User login Successful
+[ERROR] 2023-11-22 20:37:47.565 [main] DriverUtility - Error adding product to cart: no such alert
+  (Session info: chrome=119.0.6045.160)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c67adc0ab64eae52b84bfdfad68f4f8, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\kanch\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51178}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51178/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c67adc0ab64eae52b84bfdfad68f4f8
+[INFO ] 2023-11-22 20:37:47.800 [main] DriverUtility - browser closed
+[INFO ] 2023-11-22 20:43:31.428 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 20:43:34.549 [main] DriverUtility - Login is succesful
+[INFO ] 2023-11-22 20:43:34.550 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-11-22 20:43:37.582 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-11-22 20:43:41.516 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-11-22 20:43:45.069 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-11-22 20:43:46.024 [main] DriverUtility - browser closed
+[INFO ] 2023-11-22 20:45:08.797 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-22 20:45:12.072 [main] DriverUtility - Login is succesful
+[INFO ] 2023-11-22 20:45:12.072 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-11-22 20:45:15.045 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-11-22 20:45:17.769 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-11-22 20:45:21.955 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-11-22 20:45:22.464 [main] DriverUtility - browser closed
+[INFO ] 2023-11-23 15:25:31.950 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-23 15:25:36.537 [main] DriverUtility - Login is succesful
+[INFO ] 2023-11-23 15:25:36.537 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-11-23 15:25:39.469 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[ERROR] 2023-11-23 15:25:39.487 [main] DriverUtility - Enter correct link name
+[ERROR] 2023-11-23 15:26:20.138 [main] DriverUtility - Error adding product to cart: Cannot invoke "java.util.List.size()" because "list" is null
+[INFO ] 2023-11-23 15:26:20.449 [main] DriverUtility - browser closed
+[INFO ] 2023-11-23 15:30:21.188 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-23 15:30:39.160 [main] DriverUtility - Login is succesful
+[INFO ] 2023-11-23 15:30:39.160 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-11-23 15:31:33.925 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[ERROR] 2023-11-23 15:31:35.811 [main] DriverUtility - Enter correct link name
+[INFO ] 2023-11-24 09:55:21.302 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-24 09:55:24.849 [main] DriverUtility - Login is succesful
+[INFO ] 2023-11-24 09:55:24.850 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-11-24 09:55:56.854 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-11-24 09:59:41.234 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-24 09:59:44.947 [main] DriverUtility - Login is succesful
+[INFO ] 2023-11-24 09:59:44.947 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-11-24 10:00:28.480 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-11-24 10:02:10.359 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-11-24 10:02:31.957 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-11-24 10:02:48.189 [main] DriverUtility - Testcase completed
+[INFO ] 2023-11-24 10:04:01.019 [main] DriverUtility - Actual total from the webpage: 4990
+[INFO ] 2023-11-24 10:04:27.657 [main] DriverUtility - Sum of cell values in the specified column: 790
+[INFO ] 2023-11-24 10:12:58.600 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-24 10:13:01.844 [main] DriverUtility - Login is succesful
+[INFO ] 2023-11-24 10:13:01.844 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-11-24 10:13:15.008 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-11-24 10:13:24.886 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-11-24 10:13:35.471 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-11-24 10:13:40.118 [main] DriverUtility - Testcase completed
+[INFO ] 2023-11-24 10:14:01.773 [main] DriverUtility - Actual total from the webpage: 6460
+[INFO ] 2023-11-24 10:18:28.551 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-24 10:18:31.646 [main] DriverUtility - Login is succesful
+[INFO ] 2023-11-24 10:18:31.647 [main] DriverUtility - Test Case Completed: User login Successful
+[ERROR] 2023-11-24 10:29:39.134 [main] DriverUtility - Error adding product to cart: Cannot invoke "java.util.List.size()" because "list" is null
+[INFO ] 2023-11-24 10:29:39.382 [main] DriverUtility - browser closed
+[INFO ] 2023-11-24 10:30:25.690 [main] DriverUtility - Start TestCase
+[INFO ] 2023-11-24 10:30:29.535 [main] DriverUtility - Login is succesful
+[INFO ] 2023-11-24 10:30:29.535 [main] DriverUtility - Test Case Completed: User login Successful
+[ERROR] 2023-11-24 10:31:13.934 [main] DriverUtility - Error adding product to cart: Cannot invoke "java.util.List.size()" because "list" is null
+[INFO ] 2023-11-24 10:31:14.143 [main] DriverUtility - browser closed
+[INFO ] 2023-12-01 09:29:34.170 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-01 09:29:43.896 [main] DriverUtility - Login is succesful
+[INFO ] 2023-12-01 09:29:43.897 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-12-01 10:10:15.740 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[ERROR] 2023-12-01 10:10:41.005 [main] DriverUtility - Error adding product to cart: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [668cd7d430bf406887c97afd8605fe9b, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\kanch\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60290}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60290/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 668cd7d430bf406887c97afd8605fe9b
+[INFO ] 2023-12-01 10:10:52.078 [main] DriverUtility - browser closed
+[INFO ] 2023-12-01 10:15:00.425 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-01 10:15:05.862 [main] DriverUtility - Login is succesful
+[INFO ] 2023-12-01 10:15:05.862 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-12-01 11:05:33.455 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-01 11:05:39.332 [main] DriverUtility - Login is succesful
+[INFO ] 2023-12-01 11:05:39.333 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-12-01 11:06:07.969 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-12-01 11:06:41.657 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-12-01 11:07:07.097 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-12-01 11:07:40.589 [main] DriverUtility - Testcase completed
+[INFO ] 2023-12-01 11:11:00.929 [main] DriverUtility - Actual total from the webpage: 3050
+[INFO ] 2023-12-01 11:11:29.129 [main] DriverUtility - Number of cells in the third column: 1
+[INFO ] 2023-12-01 11:11:31.946 [main] DriverUtility - Sum of cell values in the specified column: 320
+[INFO ] 2023-12-01 11:12:05.068 [main] DriverUtility - Validation result - Total matches sum of column values: false
+[ERROR] 2023-12-01 11:12:08.011 [main] DriverUtility - Validation failed - Total does not match sum of column values. Expected Total: '320', Actual Total: '3050'
+[INFO ] 2023-12-01 11:12:08.372 [main] DriverUtility - browser closed
+[INFO ] 2023-12-01 11:28:19.109 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-01 11:28:21.487 [main] DriverUtility - browser closed
+[INFO ] 2023-12-01 11:29:08.955 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-01 11:29:20.014 [main] DriverUtility - Login is succesful
+[INFO ] 2023-12-01 11:29:20.014 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-12-01 11:29:23.500 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[ERROR] 2023-12-01 11:40:05.421 [main] DriverUtility - Error adding product to cart: Expected condition failed: waiting for alert to be present (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\kanch\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58423/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e29dfe699d7b5219841647c387d1a069
+[INFO ] 2023-12-01 11:40:55.900 [main] DriverUtility - browser closed
+[INFO ] 2023-12-01 18:44:38.015 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-01 18:44:49.501 [main] DriverUtility - Login is succesful
+[INFO ] 2023-12-01 18:44:49.502 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-12-01 18:44:53.239 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[ERROR] 2023-12-01 18:49:12.904 [main] DriverUtility - Error adding product to cart: Expected condition failed: waiting for alert to be present (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\kanch\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62534}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62534/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 523d995f4ebd266a6112787a907207b9
+[INFO ] 2023-12-01 18:49:13.182 [main] DriverUtility - browser closed
+[INFO ] 2023-12-01 18:51:12.676 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-01 18:51:18.959 [main] DriverUtility - Login is succesful
+[INFO ] 2023-12-01 18:51:18.959 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-12-01 18:51:22.089 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-12-01 18:52:29.334 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-12-01 18:54:19.436 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-12-01 19:04:33.681 [main] DriverUtility - Testcase completed
+[INFO ] 2023-12-01 19:06:17.784 [main] DriverUtility - Actual total from the webpage: 7180
+[INFO ] 2023-12-01 19:31:02.714 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-01 19:32:48.594 [main] DriverUtility - browser closed
+[INFO ] 2023-12-02 13:46:35.342 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-02 13:46:55.800 [main] DriverUtility - browser closed
+[INFO ] 2023-12-02 14:04:29.895 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-02 14:04:59.273 [main] DriverUtility - browser closed
+[INFO ] 2023-12-02 14:06:57.550 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-02 14:07:08.839 [main] DriverUtility - Login is succesful
+[INFO ] 2023-12-02 14:07:08.840 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-12-02 14:07:12.713 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-12-02 14:07:29.059 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-12-02 14:07:42.894 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-12-02 14:08:15.631 [main] DriverUtility - Testcase completed
+[INFO ] 2023-12-02 14:09:32.563 [main] DriverUtility - Actual total from the webpage: 2260
+[INFO ] 2023-12-02 14:10:58.165 [main] DriverUtility - browser closed
+[INFO ] 2023-12-02 14:11:36.528 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-02 14:11:42.262 [main] DriverUtility - Login is succesful
+[INFO ] 2023-12-02 14:11:42.262 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-12-02 14:11:45.408 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-12-02 14:11:57.179 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-12-02 14:12:06.015 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-12-02 14:12:31.650 [main] DriverUtility - Testcase completed
+[INFO ] 2023-12-02 14:13:18.914 [main] DriverUtility - Actual total from the webpage: 3730
+[INFO ] 2023-12-02 14:13:44.057 [main] DriverUtility - Number of cells in the third column: 7
+[INFO ] 2023-12-02 14:13:50.801 [main] DriverUtility - Sum of cell values in the specified column: 3730
+[INFO ] 2023-12-02 14:13:54.325 [main] DriverUtility - Validation result - Total matches sum of column values: true
+[INFO ] 2023-12-02 14:13:54.326 [main] DriverUtility - Testcase completed
+[INFO ] 2023-12-02 14:13:54.529 [main] DriverUtility - browser closed
+[INFO ] 2023-12-03 15:15:51.997 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-03 15:16:03.321 [main] DriverUtility - Login is succesful
+[INFO ] 2023-12-03 15:16:03.321 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-12-03 15:16:07.385 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-12-03 15:16:19.519 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-12-03 15:16:30.607 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-12-03 15:17:05.533 [main] DriverUtility - Testcase completed
+[INFO ] 2023-12-03 15:17:48.662 [main] DriverUtility - Actual total from the webpage: 2620
+[INFO ] 2023-12-03 15:18:02.097 [main] DriverUtility - Number of cells in the third column: 5
+[INFO ] 2023-12-03 15:18:08.968 [main] DriverUtility - Sum of cell values in the specified column: 2620
+[INFO ] 2023-12-03 15:18:08.971 [main] DriverUtility - Validation result - Total matches sum of column values: true
+[INFO ] 2023-12-03 15:18:08.972 [main] DriverUtility - Testcase completed
+[INFO ] 2023-12-03 15:19:06.807 [main] DriverUtility - Total before deletion: 2620
+[INFO ] 2023-12-03 15:19:07.798 [main] DriverUtility - Total after deletion: 2300
+[INFO ] 2023-12-03 15:19:14.261 [main] DriverUtility - Testcase completed
+[INFO ] 2023-12-03 15:19:24.132 [main] DriverUtility - browser closed
+[INFO ] 2023-12-04 19:52:49.283 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-04 19:52:54.712 [main] DriverUtility - browser closed
+[INFO ] 2023-12-04 19:53:37.885 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-04 19:53:48.830 [main] DriverUtility - Login is succesful
+[INFO ] 2023-12-04 19:53:48.831 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-12-04 19:55:39.676 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-12-04 19:55:52.427 [main] DriverUtility - Testcase completed
+[INFO ] 2023-12-04 19:55:52.649 [main] DriverUtility - browser closed
+[INFO ] 2023-12-05 14:30:08.673 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-05 14:33:02.293 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-05 14:36:43.781 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-05 14:45:19.735 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-05 14:45:39.397 [main] DriverUtility - Login is succesful
+[INFO ] 2023-12-05 14:45:39.413 [main] DriverUtility - Test Case Completed: User login Successful
+[ERROR] 2023-12-05 14:47:16.872 [main] DriverUtility - Error adding product to cart or validating total: Cannot invoke "java.util.List.size()" because "list" is null
+[INFO ] 2023-12-05 15:00:01.372 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-05 15:02:07.935 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-05 15:02:33.853 [main] DriverUtility - Login is succesful
+[INFO ] 2023-12-05 15:02:33.855 [main] DriverUtility - Test Case Completed: User login Successful
+[ERROR] 2023-12-05 15:08:51.119 [main] DriverUtility - Error adding product to cart or validating total: Cannot invoke "java.util.List.size()" because "list" is null
+[INFO ] 2023-12-05 15:12:04.053 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-05 15:28:07.171 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-05 15:29:42.734 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-05 15:50:16.369 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-05 15:54:28.034 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-05 15:55:10.941 [main] DriverUtility - Login is succesful
+[INFO ] 2023-12-05 15:55:19.700 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-12-05 15:58:02.412 [main] DriverUtility - Product added successfully. Actual Alert: Product added.
+[INFO ] 2023-12-05 15:58:17.885 [main] DriverUtility - Actual total from the webpage: 720
+[INFO ] 2023-12-05 15:58:17.892 [main] DriverUtility - Number of cells in the third column: 2
+[INFO ] 2023-12-05 15:58:17.899 [main] DriverUtility - Sum of cell values in the specified column: 720
+[INFO ] 2023-12-05 15:58:17.899 [main] DriverUtility - Validation result - Total matches sum of column values and matches expected total: false
+[ERROR] 2023-12-05 15:58:17.909 [main] DriverUtility - Validation failed - Total does not match sum of column values or does not match expected total. Expected Total: '0', Actual Total: '720'
+[INFO ] 2023-12-05 15:58:39.099 [main] DriverUtility - Product added to cart and total validated
+[INFO ] 2023-12-05 15:58:39.970 [main] DriverUtility - Testcase completed
+[INFO ] 2023-12-05 15:58:45.808 [main] DriverUtility - browser closed
+[INFO ] 2023-12-05 21:25:57.926 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-06 14:08:34.866 [main] DriverUtility - Table Header: Pic
+[INFO ] 2023-12-06 14:08:47.429 [main] DriverUtility - Table Header: Title
+[INFO ] 2023-12-06 14:08:48.705 [main] DriverUtility - Table Header: Price
+[INFO ] 2023-12-06 14:08:50.599 [main] DriverUtility - Table Header: x
+[INFO ] 2023-12-06 14:08:50.635 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-06 14:28:13.973 [main] DriverUtility - Table Header: Pic
+[INFO ] 2023-12-06 14:28:21.422 [main] DriverUtility - Table Header: Title
+[INFO ] 2023-12-06 14:28:22.370 [main] DriverUtility - Table Header: Price
+[INFO ] 2023-12-06 14:28:23.806 [main] DriverUtility - Table Header: x
+[INFO ] 2023-12-06 20:57:30.484 [main] DriverUtility -  
+[INFO ] 2023-12-06 20:57:38.614 [main] DriverUtility - Samsung galaxy s6 
+[INFO ] 2023-12-06 20:57:41.902 [main] DriverUtility - 360 
+[INFO ] 2023-12-06 20:57:44.176 [main] DriverUtility - Delete 
+[INFO ] 2023-12-07 10:58:17.842 [main] DriverUtility -  
+[INFO ] 2023-12-07 10:58:19.827 [main] DriverUtility - Nokia lumia 1520 
+[INFO ] 2023-12-07 10:58:22.698 [main] DriverUtility - 820 
+[INFO ] 2023-12-07 10:58:23.621 [main] DriverUtility - Delete 
+[INFO ] 2023-12-07 10:58:27.017 [main] DriverUtility -  
+[INFO ] 2023-12-07 10:58:40.293 [main] DriverUtility - Samsung galaxy s6 
+[INFO ] 2023-12-07 10:58:41.519 [main] DriverUtility - 360 
+[INFO ] 2023-12-07 10:58:42.235 [main] DriverUtility - Delete 
+[INFO ] 2023-12-07 12:20:41.428 [main] DriverUtility - Nokia lumia 1520 
+[INFO ] 2023-12-07 12:20:41.462 [main] DriverUtility - Sony vaio i5 
+[INFO ] 2023-12-07 12:20:41.485 [main] DriverUtility - Samsung galaxy s6 
+[INFO ] 2023-12-07 14:03:54.826 [main] DriverUtility - first row is
+[INFO ] 2023-12-07 14:03:58.704 [main] DriverUtility - first row is
+[INFO ] 2023-12-07 14:04:00.909 [main] DriverUtility - first row is
+[INFO ] 2023-12-07 14:04:02.705 [main] DriverUtility - first row is
+[INFO ] 2023-12-07 14:04:10.667 [main] DriverUtility - first row is
+[INFO ] 2023-12-07 14:04:12.358 [main] DriverUtility - first row is
+[INFO ] 2023-12-07 14:04:13.955 [main] DriverUtility - first row is
+[INFO ] 2023-12-07 14:04:15.318 [main] DriverUtility - first row is
+[INFO ] 2023-12-07 14:06:23.307 [main] DriverUtility -  
+[INFO ] 2023-12-07 14:06:26.041 [main] DriverUtility - Nokia lumia 1520 
+[INFO ] 2023-12-07 14:06:36.362 [main] DriverUtility - 820 
+[INFO ] 2023-12-07 14:06:37.319 [main] DriverUtility - Delete 
+[INFO ] 2023-12-07 14:06:43.860 [main] DriverUtility -  
+[INFO ] 2023-12-07 14:06:45.170 [main] DriverUtility - Samsung galaxy s6 
+[INFO ] 2023-12-07 14:06:46.453 [main] DriverUtility - 360 
+[INFO ] 2023-12-08 11:43:50.606 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-08 11:46:22.707 [main] DriverUtility - Start TestCase
+[ERROR] 2023-12-08 11:49:09.417 [main] DriverUtility - Login failed with exception: Expected condition failed: waiting for alert to be present (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\kanch\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52770}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52770/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18405eb2f5ec94cc9676d44cf9f541be
+[INFO ] 2023-12-08 11:50:35.277 [main] DriverUtility - Start TestCase
+[ERROR] 2023-12-08 11:52:43.466 [main] DriverUtility - Login failed with exception: Expected condition failed: waiting for alert to be present (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\kanch\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52885}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52885/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d4585e9785b2a9ae5a80470750b4b46d
+[INFO ] 2023-12-08 11:53:32.677 [main] DriverUtility - Start TestCase
+[ERROR] 2023-12-08 11:54:13.713 [main] DriverUtility - Login failed with exception: Expected condition failed: waiting for alert to be present (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\kanch\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52992}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52992/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63adc3ae87669c1e8d923c639af3f748
+[INFO ] 2023-12-08 11:54:55.174 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-08 11:56:57.849 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-08 17:46:47.339 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-08 17:50:18.152 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-08 17:54:39.552 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 11:18:39.527 [main] DriverUtility - Testcase completed
+[INFO ] 2023-12-11 11:21:26.095 [main] DriverUtility - Testcase completed
+[INFO ] 2023-12-11 11:41:40.319 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 11:57:06.645 [main] DriverUtility - Start TestCase
+[ERROR] 2023-12-11 11:58:50.232 [main] DriverUtility - Login failed with exception: Expected condition failed: waiting for alert to be present (tried for 50 second(s) with 500 milliseconds interval)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\kanch\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59147}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59147/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e1f8bade7b64305f4d44c76ef764b690
+[INFO ] 2023-12-11 12:15:51.093 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 12:18:27.857 [main] DriverUtility - Start TestCase
+[ERROR] 2023-12-11 12:20:35.731 [main] DriverUtility - Login failed with exception: Expected condition failed: waiting for alert to be present (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\kanch\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59376}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59376/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57895755deeb9d16ee417608841d7b16
+[INFO ] 2023-12-11 12:24:30.394 [main] DriverUtility - Start TestCase
+[ERROR] 2023-12-11 12:26:09.846 [main] DriverUtility - Login failed with exception: Expected condition failed: waiting for alert to be present (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\kanch\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58985}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58985/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2c51aeca8daf2437633ba8a0ed5fd01
+[INFO ] 2023-12-11 12:37:43.452 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 12:44:43.424 [main] DriverUtility - Start TestCase
+[ERROR] 2023-12-11 12:46:02.991 [main] DriverUtility - Login failed with exception: no such alert
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e2823e47cb16911ff77fa0019a8dbb0, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\kanch\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59360}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59360/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e2823e47cb16911ff77fa0019a8dbb0
+[INFO ] 2023-12-11 12:47:37.367 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 12:48:39.227 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 12:48:50.265 [main] DriverUtility - Test Case Completed: User login Successful
+[INFO ] 2023-12-11 13:08:35.250 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 13:08:35.277 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 13:11:12.285 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 13:11:12.307 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 14:08:35.983 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 14:08:36.044 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 14:10:40.417 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 14:10:43.043 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 14:39:44.276 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 14:39:44.324 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 14:54:57.092 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 14:54:57.146 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 15:07:47.806 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 15:07:47.872 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 15:16:37.103 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 15:16:37.126 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 15:31:29.322 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 15:31:29.352 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 15:33:58.222 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 15:34:12.166 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 15:41:25.061 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 15:41:25.078 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 16:10:37.174 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 16:10:37.206 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 17:06:09.245 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 17:06:09.276 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 17:21:26.952 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 17:21:26.997 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 18:35:00.835 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 18:35:00.869 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 18:47:55.497 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 18:47:55.551 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 21:14:02.552 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 21:14:02.571 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 21:15:48.599 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 21:15:48.618 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-11 21:34:03.544 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-11 21:34:03.562 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-12 10:14:06.652 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-12 10:14:06.685 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-12 10:17:17.093 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-12 10:17:17.152 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-12 10:23:17.910 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-12 10:23:27.281 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-12 10:24:30.832 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-12 10:24:30.892 [main] DriverUtility - Start TestCase
+[INFO ] 2023-12-12 10:26:52.685 [main] DriverUtility - Login is successful
+[INFO ] 2023-12-12 10:26:52.711 [main] DriverUtility - Start TestCase

@@ -9,9 +9,10 @@
 			</run>
 		</groups>
 		<classes>
-			<class name="com.ecom.project.Tests.Signintest" />
-			<!--<class name="com.ecom.project.Tests.LoginTest" />-->
+			<class name="com.ecom.project.Tests.GrampowerTest" />
+			<!--<class name="com.ecom.project.Tests.AddToCartTest" />-->
 		</classes>
+		
 	</test> <!--
 	Ecommerce Test -->
 </suite> <!--
